@@ -81,8 +81,8 @@
             </div>
             <div class="col-md-6">
               <h5 class="text-warning mb-3 mt-0">Response</h5>
-              <div v-if="loading[ep.table]" class="text-white d-flex justify-content-center align-items-center" style="min-height:80px;">
-                <i class="icon ion-md-refresh spinning d-inline-block text-fade-50" style="font-size: 2rem;"></i>
+              <div v-if="loading[ep.table]" class="text-white d-flex justify-content-center align-items-center loading-block">
+                <i class="icon ion-md-refresh spinning d-inline-block text-fade-50 loading-icon-lg"></i>
               </div>
               <pre v-else class="text-white">{{ responseJson(ep.table) }}</pre>
             </div>
@@ -95,13 +95,13 @@
             <div class="col-md-6">
               <div class="form-group mb-0">
                 <label>Pilih {{ ep.label }}</label>
-                <select class="form-control" v-model="selected[ep.table]" @change="fetchDetail(ep)">
+                <select class="form-control" v-model="selected[ep.table]" @change="fetchDetail(ep)" title="Pilih referensi" aria-label="Pilih referensi">
                   <option value="">-- Pilih --</option>
                   <option
                     v-for="item in data[ep.table]"
                     :key="item[ep.primary_key]"
                     :value="item[ep.primary_key]"
-                  >{{ item.nama }}</option>
+                  >{{ optionLabel(item, ep) }}</option>
                 </select>
               </div>
             </div>
@@ -111,9 +111,9 @@
                   <label class="text-muted">Detail Response</label>
                   <div class="bg-dark-card rounded p-3">
                     <div v-if="loadingDetail[ep.table]" class="text-white text-center">
-                      <i class="icon ion-md-refresh spinning d-inline-block text-fade-50" style="font-size: 1.5rem;"></i>
+                      <i class="icon ion-md-refresh spinning d-inline-block text-fade-50 loading-icon-sm"></i>
                     </div>
-                    <pre v-else class="text-white mb-0" style="font-size:0.85rem;">{{ detailJson(ep.table) }}</pre>
+                    <pre v-else class="text-white mb-0 detail-response-pre">{{ detailJson(ep.table) }}</pre>
                   </div>
                   <small class="text-muted mt-1 d-block">
                     <code>{{ detailUrl(ep) }}</code>

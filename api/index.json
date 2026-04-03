@@ -4,6 +4,7 @@
       "table": "ref_penghasilan",
       "label": "Penghasilan",
       "primary_key": "penghasilan_id",
+      "display_key": "nama",
       "list": "api/ref_penghasilan.json",
       "detail": "api/ref_penghasilan/{id}.json"
     },
@@ -11,6 +12,7 @@
       "table": "ref_jenjang_pendidikan",
       "label": "Jenjang Pendidikan",
       "primary_key": "jenjang_pendidikan_id",
+      "display_key": "nama",
       "list": "api/ref_jenjang_pendidikan.json",
       "detail": "api/ref_jenjang_pendidikan/{id}.json"
     },
@@ -18,8 +20,65 @@
       "table": "ref_hobby",
       "label": "Hobby",
       "primary_key": "id_hobby",
+      "display_key": "nama",
       "list": "api/ref_hobby.json",
       "detail": "api/ref_hobby/{id}.json"
+    },
+    {
+      "table": "ref_pekerjaan",
+      "label": "Pekerjaan",
+      "primary_key": "pekerjaan_id",
+      "display_key": "nama",
+      "list": "api/ref_pekerjaan.json",
+      "detail": "api/ref_pekerjaan/{id}.json"
+    },
+    {
+      "table": "ref_agama",
+      "label": "Agama",
+      "primary_key": "agama_id",
+      "display_key": "nama",
+      "list": "api/ref_agama.json",
+      "detail": "api/ref_agama/{id}.json"
+    },
+    {
+      "table": "ref_alat_transportasi",
+      "label": "Alat Transportasi",
+      "primary_key": "alat_transportasi_id",
+      "display_key": "nama",
+      "list": "api/ref_alat_transportasi.json",
+      "detail": "api/ref_alat_transportasi/{id}.json"
+    },
+    {
+      "table": "ref_jenis_pendaftaran",
+      "label": "Jenis Pendaftaran",
+      "primary_key": "jenis_pendaftaran_id",
+      "display_key": "nama",
+      "list": "api/ref_jenis_pendaftaran.json",
+      "detail": "api/ref_jenis_pendaftaran/{id}.json"
+    },
+    {
+      "table": "ref_alasan_layak_pip",
+      "label": "Alasan Layak PIP",
+      "primary_key": "id_layak_pip",
+      "display_key": "alasan_layak_pip",
+      "list": "api/ref_alasan_layak_pip.json",
+      "detail": "api/ref_alasan_layak_pip/{id}.json"
+    },
+    {
+      "table": "ref_jenis_tinggal",
+      "label": "Jenis Tinggal",
+      "primary_key": "jenis_tinggal_id",
+      "display_key": "nama",
+      "list": "api/ref_jenis_tinggal.json",
+      "detail": "api/ref_jenis_tinggal/{id}.json"
+    },
+    {
+      "table": "ref_jenis_cita",
+      "label": "Cita-cita",
+      "primary_key": "id_cita",
+      "display_key": "nm_cita",
+      "list": "api/ref_jenis_cita.json",
+      "detail": "api/ref_jenis_cita/{id}.json"
     }
   ]
 }

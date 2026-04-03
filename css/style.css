@@ -1,4 +1,5 @@
-html, body {
+html,
+body {
   background-color: #efefef;
 }
 
@@ -15,7 +16,7 @@ a[href] {
 }
 
 .text-fade-50 {
-  opacity: .5;
+  opacity: 0.5;
 }
 
 pre {
@@ -30,12 +31,12 @@ pre a[href] {
   border: none;
   border-radius: 8px;
   overflow: hidden;
-  box-shadow: 0 2px 8px rgba(0,0,0,.08);
-  transition: box-shadow .3s;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  transition: box-shadow 0.3s;
 }
 
 .card:hover {
-  box-shadow: 0 4px 16px rgba(0,0,0,.12);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
 }
 
 .endpoint-card .card-body.bg-dark-card pre {
@@ -49,37 +50,51 @@ pre a[href] {
 }
 
 .endpoint-card .card-body.bg-dark-card pre::-webkit-scrollbar-thumb {
-  background: rgba(255,255,255,.2);
+  background: rgba(255, 255, 255, 0.2);
   border-radius: 3px;
 }
 
-.fade-enter-active, .fade-leave-active {
-  transition: opacity .4s;
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.4s;
 }
 
-.fade-enter, .fade-leave-to {
+.fade-enter,
+.fade-leave-to {
   opacity: 0;
 }
 
 .spinning {
-  -webkit-animation: spinning .8s linear infinite;
-  -moz-animation: spinning .8s linear infinite;
-  animation: spinning .8s linear infinite;
+  -webkit-animation: spinning 0.8s linear infinite;
+  -moz-animation: spinning 0.8s linear infinite;
+  animation: spinning 0.8s linear infinite;
 }
 
 @-moz-keyframes spinning {
-  from { -moz-transform: rotate(0deg); }
-  to { -moz-transform: rotate(360deg); }
+  from {
+    -moz-transform: rotate(0deg);
+  }
+  to {
+    -moz-transform: rotate(360deg);
+  }
 }
 
 @-webkit-keyframes spinning {
-  from { -webkit-transform: rotate(0deg); }
-  to { -webkit-transform: rotate(360deg); }
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+  }
 }
 
 @keyframes spinning {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 .badge-endpoint {
@@ -91,7 +106,7 @@ pre a[href] {
 .copy-btn {
   cursor: pointer;
   opacity: 0.7;
-  transition: opacity .2s;
+  transition: opacity 0.2s;
 }
 
 .copy-btn:hover {
@@ -108,4 +123,20 @@ pre a[href] {
 
 .hero-section {
   min-height: 220px;
+}
+
+.loading-block {
+  min-height: 80px;
+}
+
+.loading-icon-lg {
+  font-size: 2rem;
+}
+
+.loading-icon-sm {
+  font-size: 1.5rem;
+}
+
+.detail-response-pre {
+  font-size: 0.85rem;
 }

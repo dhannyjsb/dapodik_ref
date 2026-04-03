@@ -1,0 +1,50 @@
+[
+  {
+    "jenis_tinggal_id": 0,
+    "nama": "unknown"
+  },
+  {
+    "jenis_tinggal_id": 1,
+    "nama": "Bersama orang tua"
+  },
+  {
+    "jenis_tinggal_id": 2,
+    "nama": "Wali"
+  },
+  {
+    "jenis_tinggal_id": 3,
+    "nama": "Kost"
+  },
+  {
+    "jenis_tinggal_id": 4,
+    "nama": "Asrama"
+  },
+  {
+    "jenis_tinggal_id": 5,
+    "nama": "Panti asuhan"
+  },
+  {
+    "jenis_tinggal_id": 6,
+    "nama": "unknown"
+  },
+  {
+    "jenis_tinggal_id": 7,
+    "nama": "unknown"
+  },
+  {
+    "jenis_tinggal_id": 8,
+    "nama": "unknown"
+  },
+  {
+    "jenis_tinggal_id": 9,
+    "nama": "unknown"
+  },
+  {
+    "jenis_tinggal_id": 10,
+    "nama": "Pesantren"
+  },
+  {
+    "jenis_tinggal_id": 99,
+    "nama": "Lainnya"
+  }
+]

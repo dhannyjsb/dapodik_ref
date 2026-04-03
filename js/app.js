@@ -1,7 +1,8 @@
 function getCurrentUrl() {
-  const url = location.href.split('?').shift();
-  if (url.match(/\/$/)) return url.replace(/\/$/, '');
-  if (url.match(/index\.html$/)) return url.replace(/index\.html$/, '').replace(/\/$/, '');
+  const url = location.href.split("?").shift();
+  if (url.match(/\/$/)) return url.replace(/\/$/, "");
+  if (url.match(/index\.html$/))
+    return url.replace(/index\.html$/, "").replace(/\/$/, "");
   return url;
 }
 
@@ -10,7 +11,7 @@ const { createApp, reactive, ref } = Vue;
 createApp({
   data() {
     return {
-      baseApiUrl: getCurrentUrl() + '/api',
+      baseApiUrl: getCurrentUrl() + "/api",
       endpoints: [],
       data: {},
       detail: {},
@@ -25,21 +26,21 @@ createApp({
   methods: {
     async init() {
       // Fetch daftar endpoint dari index.json
-      const res = await fetch('api/index.json');
+      const res = await fetch("api/index.json");
       const index = await res.json();
       this.endpoints = index.endpoints;
 
       // Inisialisasi reactive properties
-      this.endpoints.forEach(ep => {
+      this.endpoints.forEach((ep) => {
         this.data[ep.table] = [];
         this.detail[ep.table] = null;
-        this.selected[ep.table] = '';
+        this.selected[ep.table] = "";
         this.loading[ep.table] = false;
         this.loadingDetail[ep.table] = false;
       });
 
       // Fetch semua list data
-      this.endpoints.forEach(ep => this.fetchList(ep));
+      this.endpoints.forEach((ep) => this.fetchList(ep));
     },
 
     async fetchList(ep) {
@@ -62,7 +63,7 @@ createApp({
       }
       this.loadingDetail[ep.table] = true;
       try {
-        const url = ep.detail.replace('{id}', id);
+        const url = ep.detail.replace("{id}", id);
         const res = await fetch(url);
         const json = await res.json();
         this.detail[ep.table] = json;
@@ -76,9 +77,9 @@ createApp({
       const url = `${this.baseApiUrl}/${ep.table}.json`;
       return [
         `fetch('<a href="${url}" target="_blank">${url}</a>')`,
-        '  .then(response => response.json())',
-        `  .then(data => console.log(data));`
-      ].join('\n');
+        "  .then(response => response.json())",
+        `  .then(data => console.log(data));`,
+      ].join("\n");
     },
 
     responseJson(table) {
@@ -89,9 +90,17 @@ createApp({
       return JSON.stringify(this.detail[table] || {}, null, 2);
     },
 
+    optionLabel(item, ep) {
+      const displayKey = ep.display_key || "nama";
+      const value = item?.[displayKey];
+      return value === null || value === undefined || value === ""
+        ? "(kosong)"
+        : value;
+    },
+
     detailUrl(ep) {
       const id = this.selected[ep.table];
       return `${this.baseApiUrl}/${ep.table}/${id}.json`;
     },
-  }
-}).mount('#app');
+  },
+}).mount("#app");
