@@ -1,28 +1,57 @@
 # Dapodik Reference Static API
 
-Proyek ini adalah situs statis yang menampilkan dan menyajikan data referensi Dapodik dalam format JSON.
+API statis referensi Dapodik berbasis GitHub Pages.
 
-Karena hanya menggunakan HTML, CSS, JavaScript, dan file JSON statis, repo ini cocok di-host langsung di GitHub Pages.
+Proyek ini menampilkan contoh konsumsi data referensi dalam format JSON menggunakan `fetch` API dan Vue 3, tanpa backend dan tanpa proses build.
 
-## Struktur
+## Repository
 
-- `index.html` sebagai halaman utama
-- `css/style.css` untuk tampilan
-- `js/app.js` untuk logika fetch dan render Vue
-- `api/*.json` untuk endpoint daftar data
-- `api/<nama_tabel>/<id>.json` untuk endpoint detail per ID
+- Source code: `https://github.com/dhannyjsb/dapodik_ref`
+- GitHub Pages: `https://dhannyjsb.github.io/dapodik_ref/`
 
-## Menjalankan Lokal
+## Fitur
 
-Jangan buka file langsung dengan skema `file:///` karena browser dapat memblokir `fetch` ke file JSON lokal.
+- Menyajikan data referensi dalam format JSON statis
+- Menampilkan daftar endpoint dan contoh response
+- Mendukung endpoint list dan detail per ID
+- Cocok untuk demo, referensi, dan hosting gratis di GitHub Pages
 
-Gunakan server HTTP sederhana, misalnya:
+## Struktur Proyek
+
+- `index.html` untuk halaman utama
+- `css/style.css` untuk styling
+- `js/app.js` untuk logika aplikasi dan `fetch`
+- `api/index.json` untuk daftar endpoint
+- `api/<tabel>.json` untuk list data
+- `api/<tabel>/<id>.json` untuk detail data per ID
+
+## Endpoint Contoh
+
+Base URL:
+
+```text
+https://dhannyjsb.github.io/dapodik_ref/api/
+```
+
+Contoh endpoint:
+
+- `https://dhannyjsb.github.io/dapodik_ref/api/index.json`
+- `https://dhannyjsb.github.io/dapodik_ref/api/ref_hobby.json`
+- `https://dhannyjsb.github.io/dapodik_ref/api/ref_hobby/1.json`
+- `https://dhannyjsb.github.io/dapodik_ref/api/ref_jenjang_pendidikan.json`
+- `https://dhannyjsb.github.io/dapodik_ref/api/ref_penghasilan/11.json`
+
+## Menjalankan Secara Lokal
+
+Jangan membuka proyek langsung dengan skema `file:///`, karena browser bisa memblokir `fetch` ke file JSON lokal.
+
+Gunakan server HTTP sederhana:
 
 ```bash
 python -m http.server 8123
 ```
 
-Lalu buka:
+Lalu akses:
 
 ```text
 http://localhost:8123/
@@ -30,30 +59,30 @@ http://localhost:8123/
 
 ## Deploy ke GitHub Pages
 
-1. Push repo ini ke GitHub.
-2. Buka `Settings` repo.
-3. Masuk ke menu `Pages`.
-4. Pada `Build and deployment`, pilih source: `Deploy from a branch`.
-5. Pilih branch `main` atau `master`.
+1. Push project ini ke repository GitHub.
+2. Buka menu `Settings` pada repository.
+3. Pilih menu `Pages`.
+4. Pada bagian `Build and deployment`, pilih `Deploy from a branch`.
+5. Pilih branch `main`.
 6. Pilih folder `/ (root)`.
-7. Simpan konfigurasi.
+7. Simpan konfigurasi dan tunggu proses publish selesai.
 
-Setelah aktif, situs biasanya tersedia di:
+Jika konfigurasi aktif, halaman akan tersedia di:
 
 ```text
-https://<username>.github.io/<nama-repo>/
+https://dhannyjsb.github.io/dapodik_ref/
 ```
 
-## Endpoint Contoh
+## Teknologi
 
-Jika repo dipublikasikan sebagai `https://<username>.github.io/dapodik_ref/`, maka contoh endpoint menjadi:
-
-- `https://<username>.github.io/dapodik_ref/api/index.json`
-- `https://<username>.github.io/dapodik_ref/api/ref_hobby.json`
-- `https://<username>.github.io/dapodik_ref/api/ref_hobby/1.json`
+- HTML5
+- CSS3
+- JavaScript
+- Vue 3 CDN
+- GitHub Pages
 
 ## Catatan
 
-- Path endpoint di proyek ini sudah menggunakan path relatif, sehingga aman untuk GitHub Pages.
-- Tidak ada backend, build step, atau dependency server-side yang dibutuhkan.
-- Hasil verifikasi lokal menunjukkan seluruh file detail JSON yang direferensikan oleh `api/index.json` tersedia dan konsisten.
+- Seluruh endpoint menggunakan path relatif, sehingga aman dijalankan di GitHub Pages.
+- Tidak memerlukan backend, database server, atau build tool.
+- Struktur data list dan detail JSON sudah diverifikasi konsisten dengan metadata di `api/index.json`.
