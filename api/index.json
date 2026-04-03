@@ -1,0 +1,25 @@
+{
+  "endpoints": [
+    {
+      "table": "ref_penghasilan",
+      "label": "Penghasilan",
+      "primary_key": "penghasilan_id",
+      "list": "api/ref_penghasilan.json",
+      "detail": "api/ref_penghasilan/{id}.json"
+    },
+    {
+      "table": "ref_jenjang_pendidikan",
+      "label": "Jenjang Pendidikan",
+      "primary_key": "jenjang_pendidikan_id",
+      "list": "api/ref_jenjang_pendidikan.json",
+      "detail": "api/ref_jenjang_pendidikan/{id}.json"
+    },
+    {
+      "table": "ref_hobby",
+      "label": "Hobby",
+      "primary_key": "id_hobby",
+      "list": "api/ref_hobby.json",
+      "detail": "api/ref_hobby/{id}.json"
+    }
+  ]
+}

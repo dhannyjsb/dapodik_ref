@@ -1,0 +1,10 @@
+[
+  { "id_hobby": 1, "nama": "Olahraga" },
+  { "id_hobby": 2, "nama": "Kesenian" },
+  { "id_hobby": 3, "nama": "Membaca" },
+  { "id_hobby": 4, "nama": "Menulis" },
+  { "id_hobby": 5, "nama": "Traveling" },
+  { "id_hobby": 11, "nama": "Fotografi" },
+  { "id_hobby": 12, "nama": "Fitness" },
+  { "id_hobby": 6, "nama": "Lainnya" }
+]

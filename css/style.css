@@ -1,0 +1,111 @@
+html, body {
+  background-color: #efefef;
+}
+
+a[href] {
+  color: #6b6b6b;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.bg-dark-card {
+  background-color: #37474f !important;
+}
+
+.text-fade-50 {
+  opacity: .5;
+}
+
+pre {
+  margin: 0;
+}
+
+pre a[href] {
+  color: #b2ebf2;
+}
+
+.card {
+  border: none;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0,0,0,.08);
+  transition: box-shadow .3s;
+}
+
+.card:hover {
+  box-shadow: 0 4px 16px rgba(0,0,0,.12);
+}
+
+.endpoint-card .card-body.bg-dark-card pre {
+  max-height: 200px;
+  overflow-y: auto;
+  font-size: 0.85rem;
+}
+
+.endpoint-card .card-body.bg-dark-card pre::-webkit-scrollbar {
+  width: 6px;
+}
+
+.endpoint-card .card-body.bg-dark-card pre::-webkit-scrollbar-thumb {
+  background: rgba(255,255,255,.2);
+  border-radius: 3px;
+}
+
+.fade-enter-active, .fade-leave-active {
+  transition: opacity .4s;
+}
+
+.fade-enter, .fade-leave-to {
+  opacity: 0;
+}
+
+.spinning {
+  -webkit-animation: spinning .8s linear infinite;
+  -moz-animation: spinning .8s linear infinite;
+  animation: spinning .8s linear infinite;
+}
+
+@-moz-keyframes spinning {
+  from { -moz-transform: rotate(0deg); }
+  to { -moz-transform: rotate(360deg); }
+}
+
+@-webkit-keyframes spinning {
+  from { -webkit-transform: rotate(0deg); }
+  to { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spinning {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.badge-endpoint {
+  font-size: 0.75rem;
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+
+.copy-btn {
+  cursor: pointer;
+  opacity: 0.7;
+  transition: opacity .2s;
+}
+
+.copy-btn:hover {
+  opacity: 1;
+}
+
+.table-ref {
+  font-size: 0.9rem;
+}
+
+.table-ref th {
+  border-top: none;
+}
+
+.hero-section {
+  min-height: 220px;
+}
