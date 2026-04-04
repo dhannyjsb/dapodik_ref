@@ -1,10 +1,122 @@
 [
-  { "id_hobby": 1, "nama": "Olahraga" },
-  { "id_hobby": 2, "nama": "Kesenian" },
-  { "id_hobby": 3, "nama": "Membaca" },
-  { "id_hobby": 4, "nama": "Menulis" },
-  { "id_hobby": 5, "nama": "Traveling" },
-  { "id_hobby": 11, "nama": "Fotografi" },
-  { "id_hobby": 12, "nama": "Fitness" },
-  { "id_hobby": 6, "nama": "Lainnya" }
+  {
+    "id_hobby": -1,
+    "nama": "(belum diisi)"
+  },
+  {
+    "id_hobby": 1,
+    "nama": "Olah Raga"
+  },
+  {
+    "id_hobby": 2,
+    "nama": "Kesenian"
+  },
+  {
+    "id_hobby": 3,
+    "nama": "Membaca"
+  },
+  {
+    "id_hobby": 4,
+    "nama": "Menulis"
+  },
+  {
+    "id_hobby": 5,
+    "nama": "Traveling"
+  },
+  {
+    "id_hobby": 6,
+    "nama": "Lainnya"
+  },
+  {
+    "id_hobby": 11,
+    "nama": "Fotografi"
+  },
+  {
+    "id_hobby": 12,
+    "nama": "Fitness"
+  },
+  {
+    "id_hobby": 13,
+    "nama": "Belanja"
+  },
+  {
+    "id_hobby": 14,
+    "nama": "Menggambar"
+  },
+  {
+    "id_hobby": 15,
+    "nama": "Bermain Musik"
+  },
+  {
+    "id_hobby": 16,
+    "nama": "mendaki"
+  },
+  {
+    "id_hobby": 17,
+    "nama": "Jogging"
+  },
+  {
+    "id_hobby": 18,
+    "nama": "Bermain Gitar"
+  },
+  {
+    "id_hobby": 19,
+    "nama": "Bermain Bola"
+  },
+  {
+    "id_hobby": 20,
+    "nama": "Bermain Bulu Tangkis"
+  },
+  {
+    "id_hobby": 21,
+    "nama": "Bermain Bola Tenis"
+  },
+  {
+    "id_hobby": 22,
+    "nama": "Bermain Biola"
+  },
+  {
+    "id_hobby": 23,
+    "nama": "Bermain Piano"
+  },
+  {
+    "id_hobby": 24,
+    "nama": "Berlari"
+  },
+  {
+    "id_hobby": 25,
+    "nama": "Berkemah"
+  },
+  {
+    "id_hobby": 26,
+    "nama": "Memancing"
+  },
+  {
+    "id_hobby": 27,
+    "nama": "Berselancar"
+  },
+  {
+    "id_hobby": 28,
+    "nama": "Bermain Gitar"
+  },
+  {
+    "id_hobby": 29,
+    "nama": "Bermain Boneka"
+  },
+  {
+    "id_hobby": 30,
+    "nama": "Makan"
+  },
+  {
+    "id_hobby": 31,
+    "nama": "Menjahit"
+  },
+  {
+    "id_hobby": 32,
+    "nama": "Main Puzzle"
+  },
+  {
+    "id_hobby": 33,
+    "nama": "Mewarnai"
+  }
 ]

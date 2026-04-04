@@ -1,10 +1,34 @@
 [
-  { "jenjang_pendidikan_id": 0, "nama": "Tidak sekolah" },
-  { "jenjang_pendidikan_id": 4, "nama": "SD" },
-  { "jenjang_pendidikan_id": 5, "nama": "SMP" },
-  { "jenjang_pendidikan_id": 6, "nama": "SMA" },
-  { "jenjang_pendidikan_id": 22, "nama": "D3" },
-  { "jenjang_pendidikan_id": 30, "nama": "S1" },
-  { "jenjang_pendidikan_id": 35, "nama": "S2" },
-  { "jenjang_pendidikan_id": 40, "nama": "S3" }
+  {
+    "jenjang_pendidikan_id": 0,
+    "nama": "Tidak sekolah"
+  },
+  {
+    "jenjang_pendidikan_id": 4,
+    "nama": "SD"
+  },
+  {
+    "jenjang_pendidikan_id": 5,
+    "nama": "SMP"
+  },
+  {
+    "jenjang_pendidikan_id": 6,
+    "nama": "SMA"
+  },
+  {
+    "jenjang_pendidikan_id": 22,
+    "nama": "D3"
+  },
+  {
+    "jenjang_pendidikan_id": 30,
+    "nama": "S1"
+  },
+  {
+    "jenjang_pendidikan_id": 35,
+    "nama": "S2"
+  },
+  {
+    "jenjang_pendidikan_id": 40,
+    "nama": "S3"
+  }
 ]

@@ -1,110 +1,74 @@
 [
   {
     "pekerjaan_id": 0,
-    "nama": null,
-    "a_wirausaha": 0,
-    "a_pejabat_publik": 0
+    "nama": null
   },
   {
     "pekerjaan_id": 1,
-    "nama": "Tidak bekerja",
-    "a_wirausaha": 0,
-    "a_pejabat_publik": 0
+    "nama": "Tidak bekerja"
   },
   {
     "pekerjaan_id": 2,
-    "nama": "Nelayan",
-    "a_wirausaha": 0,
-    "a_pejabat_publik": 0
+    "nama": "Nelayan"
   },
   {
     "pekerjaan_id": 3,
-    "nama": "Petani",
-    "a_wirausaha": 0,
-    "a_pejabat_publik": 0
+    "nama": "Petani"
   },
   {
     "pekerjaan_id": 4,
-    "nama": "Peternak",
-    "a_wirausaha": 0,
-    "a_pejabat_publik": 0
+    "nama": "Peternak"
   },
   {
     "pekerjaan_id": 5,
-    "nama": "PNS/TNI/Polri",
-    "a_wirausaha": 0,
-    "a_pejabat_publik": 0
+    "nama": "PNS/TNI/Polri"
   },
   {
     "pekerjaan_id": 6,
-    "nama": "Karyawan Swasta",
-    "a_wirausaha": 0,
-    "a_pejabat_publik": 0
+    "nama": "Karyawan Swasta"
   },
   {
     "pekerjaan_id": 7,
-    "nama": "Pedagang Kecil",
-    "a_wirausaha": 0,
-    "a_pejabat_publik": 0
+    "nama": "Pedagang Kecil"
   },
   {
     "pekerjaan_id": 8,
-    "nama": "Pedagang Besar",
-    "a_wirausaha": 0,
-    "a_pejabat_publik": 0
+    "nama": "Pedagang Besar"
   },
   {
     "pekerjaan_id": 9,
-    "nama": "Wiraswasta",
-    "a_wirausaha": 0,
-    "a_pejabat_publik": 0
+    "nama": "Wiraswasta"
   },
   {
     "pekerjaan_id": 10,
-    "nama": "Wirausaha",
-    "a_wirausaha": 0,
-    "a_pejabat_publik": 0
+    "nama": "Wirausaha"
   },
   {
     "pekerjaan_id": 11,
-    "nama": "Buruh",
-    "a_wirausaha": 0,
-    "a_pejabat_publik": 0
+    "nama": "Buruh"
   },
   {
     "pekerjaan_id": 12,
-    "nama": "Pensiunan",
-    "a_wirausaha": 0,
-    "a_pejabat_publik": 0
+    "nama": "Pensiunan"
   },
   {
     "pekerjaan_id": 13,
-    "nama": "Tenaga Kerja Indonesia",
-    "a_wirausaha": 0,
-    "a_pejabat_publik": 0
+    "nama": "Tenaga Kerja Indonesia"
   },
   {
     "pekerjaan_id": 14,
-    "nama": "Karyawan BUMN",
-    "a_wirausaha": 0,
-    "a_pejabat_publik": 0
+    "nama": "Karyawan BUMN"
   },
   {
     "pekerjaan_id": 90,
-    "nama": "Tidak dapat diterapkan",
-    "a_wirausaha": 0,
-    "a_pejabat_publik": 0
+    "nama": "Tidak dapat diterapkan"
   },
   {
     "pekerjaan_id": 98,
-    "nama": "Sudah Meninggal",
-    "a_wirausaha": 0,
-    "a_pejabat_publik": 0
+    "nama": "Sudah Meninggal"
   },
   {
     "pekerjaan_id": 99,
-    "nama": "Lainnya",
-    "a_wirausaha": 0,
-    "a_pejabat_publik": 0
+    "nama": "Lainnya"
   }
 ]

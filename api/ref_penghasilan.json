@@ -1,8 +1,26 @@
 [
-  { "penghasilan_id": 11, "nama": "< 500.000" },
-  { "penghasilan_id": 12, "nama": "500.000 - 999.999" },
-  { "penghasilan_id": 13, "nama": "1jt - 1.9jt" },
-  { "penghasilan_id": 14, "nama": "2jt - 4.9jt" },
-  { "penghasilan_id": 15, "nama": "5jt - 20jt" },
-  { "penghasilan_id": 16, "nama": "> 20jt" }
+  {
+    "penghasilan_id": 11,
+    "nama": "< 500.000"
+  },
+  {
+    "penghasilan_id": 12,
+    "nama": "500.000 - 999.999"
+  },
+  {
+    "penghasilan_id": 13,
+    "nama": "1jt - 1.9jt"
+  },
+  {
+    "penghasilan_id": 14,
+    "nama": "2jt - 4.9jt"
+  },
+  {
+    "penghasilan_id": 15,
+    "nama": "5jt - 20jt"
+  },
+  {
+    "penghasilan_id": 16,
+    "nama": "> 20jt"
+  }
 ]

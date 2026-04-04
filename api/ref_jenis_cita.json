@@ -1,162 +1,162 @@
 [
   {
     "id_cita": -1,
-    "nm_cita": "(belum diisi)"
+    "nama": "(belum diisi)"
   },
   {
     "id_cita": 1,
-    "nm_cita": "PNS"
+    "nama": "PNS"
   },
   {
     "id_cita": 2,
-    "nm_cita": "TNI/Polri"
+    "nama": "TNI/Polri"
   },
   {
     "id_cita": 3,
-    "nm_cita": "Guru/Dosen"
+    "nama": "Guru/Dosen"
   },
   {
     "id_cita": 4,
-    "nm_cita": "Dokter"
+    "nama": "Dokter"
   },
   {
     "id_cita": 5,
-    "nm_cita": "Politikus"
+    "nama": "Politikus"
   },
   {
     "id_cita": 6,
-    "nm_cita": "Wiraswasta"
+    "nama": "Wiraswasta"
   },
   {
     "id_cita": 7,
-    "nm_cita": "Seni/Lukis/Artis/Sejenis"
+    "nama": "Seni/Lukis/Artis/Sejenis"
   },
   {
     "id_cita": 8,
-    "nm_cita": "Lainnya"
+    "nama": "Lainnya"
   },
   {
     "id_cita": 11,
-    "nm_cita": "Penghafal Al-Qur'an"
+    "nama": "Penghafal Al-Qur'an"
   },
   {
     "id_cita": 12,
-    "nm_cita": "Atlet E-Sport Profesional"
+    "nama": "Atlet E-Sport Profesional"
   },
   {
     "id_cita": 13,
-    "nm_cita": "Atlet"
+    "nama": "Atlet"
   },
   {
     "id_cita": 14,
-    "nm_cita": "Content Creator"
+    "nama": "Content Creator"
   },
   {
     "id_cita": 15,
-    "nm_cita": "Vloger"
+    "nama": "Vloger"
   },
   {
     "id_cita": 16,
-    "nm_cita": "Koki"
+    "nama": "Koki"
   },
   {
     "id_cita": 17,
-    "nm_cita": "Pendeta"
+    "nama": "Pendeta"
   },
   {
     "id_cita": 18,
-    "nm_cita": "Perawat"
+    "nama": "Perawat"
   },
   {
     "id_cita": 19,
-    "nm_cita": "Pilot"
+    "nama": "Pilot"
   },
   {
     "id_cita": 20,
-    "nm_cita": "Pembalap"
+    "nama": "Pembalap"
   },
   {
     "id_cita": 21,
-    "nm_cita": "Atlit Olahraga"
+    "nama": "Atlit Olahraga"
   },
   {
     "id_cita": 22,
-    "nm_cita": "Pengacara"
+    "nama": "Pengacara"
   },
   {
     "id_cita": 23,
-    "nm_cita": "Da'i / Ustadz"
+    "nama": "Da'i / Ustadz"
   },
   {
     "id_cita": 24,
-    "nm_cita": "Entertainer / Pekerja Seni"
+    "nama": "Entertainer / Pekerja Seni"
   },
   {
     "id_cita": 25,
-    "nm_cita": "Wartawan"
+    "nama": "Wartawan"
   },
   {
     "id_cita": 26,
-    "nm_cita": "Pengusaha / Bisnismen"
+    "nama": "Pengusaha / Bisnismen"
   },
   {
     "id_cita": 27,
-    "nm_cita": "Penulis"
+    "nama": "Penulis"
   },
   {
     "id_cita": 28,
-    "nm_cita": "Penyiar Radio"
+    "nama": "Penyiar Radio"
   },
   {
     "id_cita": 29,
-    "nm_cita": "Pembawa Acara / Master Ceremony"
+    "nama": "Pembawa Acara / Master Ceremony"
   },
   {
     "id_cita": 30,
-    "nm_cita": "Polisi"
+    "nama": "Polisi"
   },
   {
     "id_cita": 31,
-    "nm_cita": "Pemadam Kebakaran"
+    "nama": "Pemadam Kebakaran"
   },
   {
     "id_cita": 32,
-    "nm_cita": "Astronot"
+    "nama": "Astronot"
   },
   {
     "id_cita": 33,
-    "nm_cita": "Masinis Kereta Api"
+    "nama": "Masinis Kereta Api"
   },
   {
     "id_cita": 34,
-    "nm_cita": "Perawat / Suster"
+    "nama": "Perawat / Suster"
   },
   {
     "id_cita": 35,
-    "nm_cita": "Bidan"
+    "nama": "Bidan"
   },
   {
     "id_cita": 36,
-    "nm_cita": "Presiden"
+    "nama": "Presiden"
   },
   {
     "id_cita": 37,
-    "nm_cita": "Pegawai Negeri Sipil / PNS"
+    "nama": "Pegawai Negeri Sipil / PNS"
   },
   {
     "id_cita": 38,
-    "nm_cita": "Translator"
+    "nama": "Translator"
   },
   {
     "id_cita": 39,
-    "nm_cita": "Designer"
+    "nama": "Designer"
   },
   {
     "id_cita": 40,
-    "nm_cita": "Pelaut"
+    "nama": "Pelaut"
   },
   {
     "id_cita": 41,
-    "nm_cita": "Arsitek"
+    "nama": "Arsitek"
   }
 ]

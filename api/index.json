@@ -60,7 +60,7 @@
       "table": "ref_alasan_layak_pip",
       "label": "Alasan Layak PIP",
       "primary_key": "id_layak_pip",
-      "display_key": "alasan_layak_pip",
+      "display_key": "nama",
       "list": "api/ref_alasan_layak_pip.json",
       "detail": "api/ref_alasan_layak_pip/{id}.json"
     },
@@ -76,7 +76,7 @@
       "table": "ref_jenis_cita",
       "label": "Cita-cita",
       "primary_key": "id_cita",
-      "display_key": "nm_cita",
+      "display_key": "nama",
       "list": "api/ref_jenis_cita.json",
       "detail": "api/ref_jenis_cita/{id}.json"
     }
